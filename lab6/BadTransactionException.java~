@@ -1,0 +1,7 @@
+puclic class BadTransactionException extends Exception {
+  private amount;
+  public BadTransactionException(int badAmount) {
+    super("Invalid transaction amount: " + badAmount);
+    amount = badAmount;
+  }
+}

@@ -1,0 +1,7 @@
+public class LockDList extends DList {
+  
+  public void lockNode(DListNode node) {
+    
+  }
+  
+}

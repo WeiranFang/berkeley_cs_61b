@@ -1,0 +1,22 @@
+  1)  determining whether a move is valid,
+	Board:
+	boolean isValidMove(Move m)
+	
+	
+  2)  generating a list of all valid moves,
+	Board:
+	List allValidMoves()
+	
+  3)  finding the chips (of the same color) that form connections with a chip,
+	Board:
+	List connectedChips()
+	
+	
+  4)  determining whether a game board contains any networks for a given
+      player (very difficult; put your smartest teammate on this),
+	
+	
+  5)  computing an evaluation function for a board (possibly difficult), and
+
+
+  6)  performing minimax tree search (difficult).
